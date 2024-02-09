@@ -26,7 +26,14 @@ Run the application using Node.js.
 Access the application through a web browser(localhost:9000).
 Register  to start chatting.
 Send messages and receive replies instantly.
+
+
+
 ![user joined the chat](https://github.com/nanmodi/group-chatapplication/assets/134764976/340d8230-703a-467e-82c2-3f8072784efe)
+
+
+
+
 ![Sending and recieving message](https://github.com/nanmodi/group-chatapplication/assets/134764976/778a7e70-a5bf-4a8c-92f7-42cb4eb350e8)
 
 
