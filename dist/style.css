@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: linear-gradient(-45deg,rgb(16, 59, 10),rgb(139, 177, 139));
+  height: 99vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  overflow-y: scroll;
+  justify-content: space-between;
+  border-radius: 8px;
+  
+}
+.gifim {
+  width: 250px; 
+  height: 250px; 
+  border-radius: 50%; 
+  overflow: hidden; 
+  margin: 0 auto; 
+}
+
+.gifim iframe {
+  
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(45deg, rgb(11, 50, 11),rgb(211, 224, 211),rgb(28, 65, 28));
+  text-align: center;
+  padding: 12px;
+  padding-bottom: 20px;
+}
+
+.head {
+  width: 100%;
+  height: 55px;
+  background-color: rgb(75, 120, 7);
+  color:white;
+  display: flex;
+  padding: 3px 10px;
+  align-items: center;
+}
+
+.head img {
+  height: 100%;
+  padding-right: 3%;
+}
+
+.send {
+  background-color: white;
+  color: hsl(0, 0%, 35%);
+  font-weight: 18px;
+  min-width: 30px;
+  max-width: 60%;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 10px;
+  font-family: 'Protest Riot', sans-serif;
+  
+}
+
+.rec {
+  background-color: hsl(0, 6%, 69%);
+  color: rgb(6, 6, 6);
+  font-weight: 18px;
+  max-width: 60%;
+  min-width: 30px;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 10px;
+  font-family: 'Protest Riot', sans-serif;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start; 
+}
+
+.send {
+  align-self: flex-end; 
+}
+.area
+{
+  display: flex;
+  flex-direction: row;
+  
+  width: 100%;
+  height: 30px;
+  
+}
+.text
+{
+  width: 80%;
+  height: 40px;
+  border: 2px solid gray;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: 12px;
+  outline: none;
+  border-right: none;
+  margin-bottom: 10px;
+
+}
+.button
+{
+  border: 2px solid gray;
+  background-color: light grey;
+  color: black;
+  font-weight: 12px;
+  height: 40px;
+  width: 20%;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  cursor: pointer;
+  border-left: none;
+}
+.bh
+{
+  visibility: hidden;
+}
